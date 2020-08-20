@@ -62,8 +62,6 @@ bb.waitForElements('#s4l__card__btm__details__link', function (details) {
     });
 });
 $j(document).ready(function () {
-    $j('.col-main').prepend(bannerHtml);
-    
     //swipe animation
     var animating = false;
     var cardsCounter = 0;
